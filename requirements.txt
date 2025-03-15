@@ -55,6 +55,7 @@ pydeck==0.9.1
 Pygments==2.19.1
 pymdown-extensions==10.14.3
 pyparsing==3.2.1
+pip install pyperclip
 pyperclip==1.9.0
 pypiwin32==223
 python-dateutil==2.9.0.post0
