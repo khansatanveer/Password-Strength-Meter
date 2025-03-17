@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 import string
-import clipboard  # ✅ Alternative to pyperclip
 
 def generate_password(length, use_special, use_digits, exclude_similar):
     letters = string.ascii_letters
@@ -71,10 +70,6 @@ if "password" in st.session_state:
                         "</div>", unsafe_allow_html=True)
     
     st.markdown("<br>", unsafe_allow_html=True)
-    
-    if st.button("📋 Copy to Clipboard"):
-        clipboard.copy(st.session_state["password"])  # ✅ Using clipboard instead of pyperclip
-        st.success("Password copied to clipboard!")
 
     strength, color, progress = check_strength(st.session_state["password"])
     st.progress(progress)
