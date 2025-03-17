@@ -27,4 +27,4 @@ A strong password should:
 - If the password is **weak**, suggest improvements.  
 - If the password is **strong**, display a success messag
 
-  check it https://password-strength-meter-2msbcnznq5hbuthpahkd4v.streamlit.app/
+  check it [https://password-strength-meter-2msbcnznq5hbuthpahkd4v.streamlit.app/](https://password-strength-meter-2msbcnznq5hbuthpahkd4v.streamlit.app/)
